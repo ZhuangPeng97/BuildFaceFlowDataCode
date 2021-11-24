@@ -1,0 +1,1 @@
+/data/zhuang/mydata/facial_data/build_data_code/iphoneX_face/iphoneX_revised/without_pts/20180422172211/0_color.jpg /data/zhuang/mydata/facial_data/build_data_code/iphoneX_face/iphoneX_revised/without_pts/20180422172211/235_color.jpg
