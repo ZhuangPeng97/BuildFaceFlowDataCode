@@ -17,7 +17,7 @@
 <div align=center><img src="readme_imgs/show_dataset.png" width="300" height="高度" alt="Visualization"></div>
 
 * 存储格式
-  example (one frame)
+  example (1帧)
 
     - [root]iphoneX_face/iphoneX_revised/without_pts/20180422172211/0_color.jpg
     - [root]iphoneX_face/iphoneX_revised/without_pts/20180422172211/0_depth.png
@@ -32,7 +32,7 @@
     - 本数据集在face rgbd数据集的基础上添加了face parsing, mask, deformation graph, 3D reconstruction points信息。对测试集，还添加了光流和场景流信息。
 
 * 数据可视化
-    - train/val data <div align=center><img src="readme_imgs/train_data_example.png" width="400" height="高度" alt="Visualization"></div>
+    - train/val data <div align=center><img src="readme_imgs/train_data_example.png" width="500" height="高度" alt="Visualization"></div>
     - test data <div align=center><img src="readme_imgs/test_data_example.png" width="300" height="" alt="Visualization"></div>
 
 
