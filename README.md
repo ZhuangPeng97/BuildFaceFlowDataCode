@@ -4,8 +4,8 @@
     - 原始数据iphoneX_face： [iphoneX_face](https://rec.ustc.edu.cn/share/470241b0-4adb-11ec-be86-05b7dc082786)
 
 * 数据描述
-    - https://arxiv.org/pdf/1808.05323.pdf
-    - 800段iPhoneX拍摄的面部视频。
+    - 参考https://arxiv.org/pdf/1808.05323.pdf
+    - 包含800段iPhoneX拍摄的面部视频。
     - 包含color 和 depth信息， 分辨率为480*640。
     - 相机内参：cx:240, oy:320, fx:593.7, fy:593.7。
     - 分别使用[FANFace](https://github.com/1adrianb/face-alignment)和商汤的人脸关键点检测器，得到每张人脸的68个关键点和240个关键点，保存为*_info.txt, *240info.txt。
@@ -23,8 +23,6 @@
     - [root]iphoneX_face/iphoneX_revised/without_pts/20180422172211/0_depth.png
     - [root]iphoneX_face/iphoneX_revised/without_pts/20180422172211/0_info.txt
     - [root]iphoneX_face/iphoneX_revised/without_pts/20180422172211/0_240info.txt
-    - [root]iphoneX_face/iphoneX_revised/without_pts/20180422172211/1_info.txt
-    - [root]iphoneX_face/iphoneX_revised/without_pts/20180422172211/1_240info.txt
 
 ## FaceFlowData数据 （来自项目[NeuralFaceFlow]()）
 * 数据地址：
@@ -65,7 +63,7 @@
 
 * 数据集构造步骤
   - 构造datalist
-    按照 train_frames.txt 格式构造 datalist:（为了自动生成数据集相应文件夹，需要严格按照以下方式命名）
+    按照 train_frames.txt 格式构造 datalist，参考[train_frames.txt](train_frames.txt):（为了自动生成数据集相应文件夹，需要严格按照以下方式命名）
     <ul>
         <li>train_frames.txt: 训练集</li>
         <li>val_frames.txt: 验证集</li>
