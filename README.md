@@ -17,7 +17,7 @@
 <div align=center><img src="readme_imgs/show_dataset.png" width="300" height="高度" alt="Visualization"></div>
 
 * 存储格式
-  example (two frames)
+  example (one frame)
 
     - [root]iphoneX_face/iphoneX_revised/without_pts/20180422172211/0_color.jpg
     - [root]iphoneX_face/iphoneX_revised/without_pts/20180422172211/0_depth.png
